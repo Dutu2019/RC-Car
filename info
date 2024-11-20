@@ -1,10 +1,10 @@
 {
   "uuid": "b35fdbe8cb9f5e0858c7fc36fbdde08a",
-  "path": "Offline/RC%20car",
-  "name": "RC car",
+  "path": "Offline/RC-Car-main",
+  "name": "RC-Car-main",
   "content": "",
   "created_at": "2024-11-14 19:08:01",
-  "updated_at": "2024-11-19 20:53:19",
+  "updated_at": "2024-11-20 17:27:16",
   "stick": "",
   "documents": [
     {
@@ -19,11 +19,13 @@
         "619fdae5ef70461eb3234158abb31d8f": 1,
         "0695ff43599b41a6997afeff9a8bf355": 2,
         "4794aeb88f1d4c49b7852f525e3f5931": 2,
-        "b0248eb51e084227889f2cb84eab79c4": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 2,
         "067f22ec3d424564a46d3c7e1ebbec4a": 1,
         "091438019a49401eb6eedf35fdb0bd60": 1,
         "24eeb2ceca08480b92b847b6a310acda": 2,
-        "ece31f6776ea449194aaf53583b652f8": 1
+        "ece31f6776ea449194aaf53583b652f8": 1,
+        "5624c31279a34d68a6e5257792ce8010": 1,
+        "4e5e5775fd634dd48141eafc77c26e7a": 1
       },
       "BOM": [
         [
@@ -39,12 +41,10 @@
           "GENCERAMICCAPACITOR",
           "C1,C3",
           {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "11ff0d5553b644d3a5c0bf9132779abf",
-            "uuid": "4794aeb88f1d4c49b7852f525e3f5931"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -53,12 +53,10 @@
           "THT NON-POLARIZED CAPACITOR [1] 1 CIRCULAR",
           "C2",
           {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "f52a24e699c64336ae513a24a7c23330",
-            "uuid": "0695ff43599b41a6997afeff9a8bf355"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -67,12 +65,10 @@
           "THT NON-POLARIZED CAPACITOR [1] 1 CIRCULAR",
           "C4",
           {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "f52a24e699c64336ae513a24a7c23330",
-            "uuid": "0695ff43599b41a6997afeff9a8bf355"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -81,11 +77,10 @@
           "C0603",
           "C5,C6",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
-            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -94,22 +89,34 @@
           "PINHEADER-6PIN",
           "CN1",
           {
-            "BOM_Manufacturer Part": "",
-            "puuid": "6ef05b3d0154437899c973c679e1dd59",
-            "uuid": "067f22ec3d424564a46d3c7e1ebbec4a"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MOSFET",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR",
+          "Q1",
+          {
+            "Manufacturer Part": "2n3904S-RTK/PS",
+            "Manufacturer": "KEC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18536"
           }
         ],
         [
           "10k",
-          1,
+          2,
           "R0603",
-          "R1",
+          "R1,R2",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -118,12 +125,10 @@
           "ATMEGA328PU",
           "U1",
           {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "359123623de84e7ab627775d50e17fb6",
-            "uuid": "99674602486b49ceaeffbfc75ef9fda8"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -132,9 +137,10 @@
           "TO-220-3_L10.0-W4.5-P2.54-T",
           "U2",
           {
-            "BOM_Manufacturer Part": "",
-            "puuid": "fb8b10620b5a459d9b03fd14987346f4",
-            "uuid": "091438019a49401eb6eedf35fdb0bd60"
+            "Manufacturer Part": "",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92218"
           }
         ],
         [
@@ -143,12 +149,22 @@
           "2-PIN HEADER",
           "U3",
           {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "f9853649b95546dbb835beaf686b4f7f",
-            "uuid": "ece31f6776ea449194aaf53583b652f8"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Servo",
+          1,
+          "3-PIN HEADER",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -157,20 +173,18 @@
           "CRISTAL",
           "X1",
           {
-            "BOM_Supplier Part": "2819276",
-            "BOM_Supplier": "Element14",
-            "BOM_Manufacturer": "TXC",
-            "BOM_Manufacturer Part": "9B-48.000MAAE-B",
-            "puuid": "8167c679aa7746fe943518e2edc903e5",
-            "uuid": "619fdae5ef70461eb3234158abb31d8f"
+            "Manufacturer Part": "9B-48.000MAAE-B",
+            "Manufacturer": "TXC",
+            "Supplier": "Element14",
+            "Supplier Part": "2819276"
           }
         ]
       ],
-      "updateTime": 1732067599,
+      "updateTime": 1732141636,
       "createTime": 1731629281,
       "histories": [],
       "created_at": "2024-11-14 19:08:01",
-      "updated_at": "2024-11-19 20:53:19"
+      "updated_at": "2024-11-20 17:27:16"
     },
     {
       "uuid": "b483c13aa79f530ce7b3758a93c179d0",
@@ -199,8 +213,8 @@
     }
   ],
   "sort": [],
-  "title": "RC car",
-  "foldername": "RC car",
+  "title": "RC-Car-main",
+  "foldername": "RC-Car-main",
   "schfilename": "RC car.json",
-  "schfilemtime": 1732067599335
+  "schfilemtime": 1732141636189
 }

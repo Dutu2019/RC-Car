@@ -1,0 +1,206 @@
+{
+  "uuid": "b35fdbe8cb9f5e0858c7fc36fbdde08a",
+  "path": "Offline/RC%20car",
+  "name": "RC car",
+  "content": "",
+  "created_at": "2024-11-14 19:08:01",
+  "updated_at": "2024-11-19 20:53:19",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2c980dacd653f724d48ccbc666f2dad8",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "99674602486b49ceaeffbfc75ef9fda8": 1,
+        "619fdae5ef70461eb3234158abb31d8f": 1,
+        "0695ff43599b41a6997afeff9a8bf355": 2,
+        "4794aeb88f1d4c49b7852f525e3f5931": 2,
+        "b0248eb51e084227889f2cb84eab79c4": 1,
+        "067f22ec3d424564a46d3c7e1ebbec4a": 1,
+        "091438019a49401eb6eedf35fdb0bd60": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "ece31f6776ea449194aaf53583b652f8": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22pF Ceramic Capacitor",
+          2,
+          "GENCERAMICCAPACITOR",
+          "C1,C3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "11ff0d5553b644d3a5c0bf9132779abf",
+            "uuid": "4794aeb88f1d4c49b7852f525e3f5931"
+          }
+        ],
+        [
+          "47uF NP",
+          1,
+          "THT NON-POLARIZED CAPACITOR [1] 1 CIRCULAR",
+          "C2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f52a24e699c64336ae513a24a7c23330",
+            "uuid": "0695ff43599b41a6997afeff9a8bf355"
+          }
+        ],
+        [
+          "100nF NP",
+          1,
+          "THT NON-POLARIZED CAPACITOR [1] 1 CIRCULAR",
+          "C4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f52a24e699c64336ae513a24a7c23330",
+            "uuid": "0695ff43599b41a6997afeff9a8bf355"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C0603",
+          "C5,C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "Pickit",
+          1,
+          "PINHEADER-6PIN",
+          "CN1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "6ef05b3d0154437899c973c679e1dd59",
+            "uuid": "067f22ec3d424564a46d3c7e1ebbec4a"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "ATMEGA328PU",
+          1,
+          "ATMEGA328PU",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "359123623de84e7ab627775d50e17fb6",
+            "uuid": "99674602486b49ceaeffbfc75ef9fda8"
+          }
+        ],
+        [
+          "L4940V5",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-T",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "fb8b10620b5a459d9b03fd14987346f4",
+            "uuid": "091438019a49401eb6eedf35fdb0bd60"
+          }
+        ],
+        [
+          "Motor",
+          1,
+          "2-PIN HEADER",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f9853649b95546dbb835beaf686b4f7f",
+            "uuid": "ece31f6776ea449194aaf53583b652f8"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "CRISTAL",
+          "X1",
+          {
+            "BOM_Supplier Part": "2819276",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "TXC",
+            "BOM_Manufacturer Part": "9B-48.000MAAE-B",
+            "puuid": "8167c679aa7746fe943518e2edc903e5",
+            "uuid": "619fdae5ef70461eb3234158abb31d8f"
+          }
+        ]
+      ],
+      "updateTime": 1732067599,
+      "createTime": 1731629281,
+      "histories": [],
+      "created_at": "2024-11-14 19:08:01",
+      "updated_at": "2024-11-19 20:53:19"
+    },
+    {
+      "uuid": "b483c13aa79f530ce7b3758a93c179d0",
+      "puuid": "b35fdbe8cb9f5e0858c7fc36fbdde08a",
+      "title": "PCB_RC car",
+      "filename": "PCB_RC car.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "11ff0d5553b644d3a5c0bf9132779abf": 2,
+        "f52a24e699c64336ae513a24a7c23330": 2,
+        "6ef05b3d0154437899c973c679e1dd59": 1,
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "359123623de84e7ab627775d50e17fb6": 1,
+        "c31bfed1eebd4ef39547fe66f4c532da": 1,
+        "8167c679aa7746fe943518e2edc903e5": 1
+      },
+      "BOM": [],
+      "updateTime": 1731739633,
+      "createTime": 1731739535,
+      "histories": [],
+      "created_at": "2024-11-16 01:45:35",
+      "updated_at": "2024-11-16 01:47:13"
+    }
+  ],
+  "sort": [],
+  "title": "RC car",
+  "foldername": "RC car",
+  "schfilename": "RC car.json",
+  "schfilemtime": 1732067599335
+}
